@@ -1,0 +1,4 @@
+.phonetics {
+  display: flex;
+  flex-direction: row;
+}

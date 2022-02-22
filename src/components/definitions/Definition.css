@@ -1,0 +1,13 @@
+.definition-container {
+  margin: 2px;
+
+  width: 100%;
+
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.synonyms {
+  font-weight:900;
+}

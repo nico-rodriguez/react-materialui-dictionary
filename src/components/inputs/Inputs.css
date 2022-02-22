@@ -1,0 +1,25 @@
+.inputs {
+  width: 100%;
+  height: 20vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inputs > * {
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputs {
+    height: 25vh;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputs > * {
+    width: 80%;
+  }
+}

@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import { Container } from '@mui/material';
+import { useState } from 'react';
+
+import Definitions from './components/definitions/Definitions';
+import Header from './components/header/Header';
+import Inputs from './components/inputs/Inputs';
+
 import './App.css';
 
+
 function App() {
+  const [word, setWord] = useState('');
+  const [definition, setDefinition] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth='md' className='container'>
+      <Header title={word} />
+      <Inputs word={word} setWord={setWord} setDefinition={setDefinition} />
+      <Definitions definition={definition} />
+    </Container>
   );
 }
 
