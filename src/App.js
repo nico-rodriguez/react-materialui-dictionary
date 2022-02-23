@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import Definitions from './components/definitions/Definitions';
 import Header from './components/header/Header';
-import Inputs from './components/inputs/Inputs';
+import Input from './components/input/Input';
 
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <Container maxWidth='md' className='container'>
       <Header title={word} />
-      <Inputs word={word} setWord={setWord} setDefinition={setDefinition} />
+      <Input word={word} setWord={setWord} setDefinition={setDefinition} />
       <Definitions definition={definition} />
     </Container>
   );

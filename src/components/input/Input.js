@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 
 import { getDefinitions } from '../../services/dictionary.service';
 
-import './Inputs.css';
+import './Input.css';
 
 
-const Inputs = ({ word, setWord, setDefinition }) => {
+const Input = ({ word, setWord, setDefinition }) => {
   useEffect(() => {
     if (word !== '') {
       getDefinitions(word)
@@ -37,4 +37,4 @@ const Inputs = ({ word, setWord, setDefinition }) => {
   );
 };
 
-export default Inputs;
+export default Input;
