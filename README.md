@@ -14,7 +14,7 @@ This is a tutorial for learning:
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-TODO: Add additional notes about how to deploy this on a live system.
+The application is deployed at [https://word-hunter-3c7030.netlify.app/](https://word-hunter-3c7030.netlify.app/).
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
