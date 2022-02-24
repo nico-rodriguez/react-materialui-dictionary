@@ -19,7 +19,7 @@ const Input = ({ word, setWord, setDefinition }) => {
     } else {
       setDefinition(null);
     }
-  }, [word]);
+  }, [word, setDefinition]);
 
   return (
     <div className='inputs'>
