@@ -1,7 +1,10 @@
-<h3 align="center">Dictionary app with React and Material UI</h3>
+# Dictionary app with React and Material UI
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27c2cacc-184b-4f1b-9038-7779a79c32db/deploy-status)](https://app.netlify.com/sites/word-hunter-3c7030/deploys)
 
 ---
-## 🧐 About <a name = "about"></a>
+
+## 🧐 About
 
 This is a tutorial for learning:
 
@@ -12,17 +15,17 @@ This is a tutorial for learning:
 - Icons and favicons
 - Deployment to Netlify
 
-## 🚀 Deployment <a name = "deployment"></a>
+## 🚀 Deployment
 
 The application is deployed at [https://word-hunter-3c7030.netlify.app/](https://word-hunter-3c7030.netlify.app/).
 
-## ⛏️ Built Using <a name = "built_using"></a>
+## ⛏️ Built Using
 
 - [React](https://reactjs.org/)
 - [Material UI](https://mui.com/)
 - [Dictionary API](https://dictionaryapi.dev/)
 - [Netlify](https://www.netlify.com/)
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 Acknowledgements
 
 - [Piyush Agarwal (Roadside Coder)](https://github.com/piyush-eon) for creating the tutorial.
